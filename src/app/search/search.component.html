@@ -1,0 +1,8 @@
+
+<section class="webdesigntuts-workshop">
+    <h1 style="color: rgb(24, 211, 65);">O que voce esta procurando hoje?</h1>
+    <form class="card card-sm" #nossoForm="ngForm" (ngSubmit)="search(nossoForm.form)">
+        <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Procurar Gifs" name="term" [(ngModel)]="term">
+        <button class="btn btn-lg btn-success" type="submit">Search</button>
+	</form>
+</section>

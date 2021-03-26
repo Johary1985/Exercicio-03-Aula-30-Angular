@@ -1,0 +1,20 @@
+
+  <!-- Primer intento -->
+<!-- <div class="gifs">
+    <div class="gif" *ngFor= "let gif of gifs">
+        <img [src]="gif.images.downsized.url" alt="">
+    </div>
+    
+</div> -->
+<header> 
+    <h1 class="text-center" >Search done!</h1>
+</header>
+<div class="col text-center" >
+    
+<button class="col text-center" class="btn btn-lg btn-success" type="button" onclick="javascript:location.href='/'">Tentar novamente</button>
+
+</div>
+
+<br>
+<img *ngFor="let i of gifs.data" [src]="i.images.fixed_width.url">
+<div>
