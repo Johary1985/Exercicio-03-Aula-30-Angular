@@ -6,4 +6,7 @@ Exercício prático feito com o framework Angular, aplicando o aprendizagem obti
 * No style fou usado Bootstrap 5 e um template CCS simple.
 
 Iniciando o projeto:
+
 `npm install`
+
+Enjoy!
